@@ -1,0 +1,56 @@
+/* Stopwatch.css */
+
+.watch_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #ffcc33, #ff6666);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .timefont {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .button_con {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: not-allowed;
+  }
+  
